@@ -44,7 +44,7 @@ public class RoleServiceTest{
         Role teacher = roleService.findById( Role.getTeacher( ).getId( ) );
         assertEquals( teacher, Role.getStudent( ) );
         assertEquals( student, Role.getTeacher( ) );
-
+        //Just I need change the file
         assertNotEquals( teacher, Role.getTeacher( ) );
         assertNotEquals( student, Role.getStudent( ) );
     }
